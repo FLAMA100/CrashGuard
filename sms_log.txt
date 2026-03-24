@@ -1,0 +1,132 @@
+Launching lib\main.dart on SM A075F in debug mode...
+Running Gradle task 'assembleDebug'...                              6.0s
+ÔêÜ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           9.9s
+D/FlutterJNI(26722): Beginning load of flutter...
+D/FlutterJNI(26722): flutter (null) was loaded normally!
+I/flutter (26722): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+D/FlutterGeolocator(26722): Attaching Geolocator to activity
+D/FlutterRenderer(26722): Width is zero. 0,0
+Syncing files to device SM A075F...                                106ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on SM A075F is available at: http://127.0.0.1:52606/C2Ix8b89HFA=/
+The Flutter DevTools debugger and profiler on SM A075F is available at: http://127.0.0.1:52606/C2Ix8b89HFA=/devtools/?uri=ws://127.0.0.1:52606/C2Ix8b89HFA=/ws
+I/IDS_TAG (26722): Closing IDS observe window
+I/IDS_TAG (26722): Getting Shared Preference for android.app.Application@e581c5e uid = 10306
+I/IDS_TAG (26722): IDS count updated to 1 for android.app.Application@e581c5e
+I/Choreographer(26722): Skipped 451 frames!  The application may be doing too much work on its main thread.
+I/WindowExtensionsImpl(26722): Initializing Window Extensions, vendor API level=9, activity embedding enabled=true
+I/SV[263524306 MainActivity](26722): onWindowVisibilityChanged(0) true io.flutter.embedding.android.FlutterSurfaceView{fb50fd2 V.E...... ......I. 0,0-0,0} of VRI[MainActivity]@375e085
+D/SurfaceView(26722): 263524306 updateSurface: has no frame
+D/FlutterRenderer(26722): Width is zero. 0,0
+E/mple.crashguard(26722): [perfctl] 26722 26722 FPSGO ver:0
+E/mple.crashguard(26722): [perfctl] 0 0 0 0
+D/BufferQueueConsumer(26722): [](id:686200000000,api:0,p:-1,c:26722) connect: controlledByApp=false
+D/BLASTBufferQueue(26722): [VRI[MainActivity]@375e085#0](f:0,a:0) constructor()
+I/BLASTBufferQueue_Java(26722): new BLASTBufferQueue, mName= VRI[MainActivity]@375e085 mNativeObject= 0xb4000074ab646800 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3585 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 android.view.Choreographer.doCallbacks:1367 android.view.Choreographer.doFrame:1292 android.view.Choreographer$FrameDisplayEventReceiver.run:1870 
+I/BLASTBufferQueue_Java(26722): update, w= 720 h= 1600 mName = VRI[MainActivity]@375e085 mNativeObject= 0xb4000074ab646800 sc.mNativeObject= 0xb400007543d9df80 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3590 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+D/BLASTBufferQueue(26722): [VRI[MainActivity]@375e085#0](f:0,a:0) update width=720 height=1600 format=-3 mTransformHint=0
+I/VRI[MainActivity]@375e085(26722): Relayout returned: old=(0,0,720,1600) new=(0,0,720,1600) relayoutAsync=false req=(720,1600)0 dur=25 res=0x3 s={true 0xb4000074ab53af00} ch=true seqId=0
+D/VRI[MainActivity]@375e085(26722): mThreadedRenderer.initialize() mSurface={isValid=true 0xb4000074ab53af00} hwInitialized=true
+D/FlutterJNI(26722): Sending viewport metrics to the engine.
+I/mple.crashguard(26722): Compiler allocated 5066KB to compile void android.view.ViewRootImpl.performTraversals()
+D/SurfaceView(26722): 263524306 updateSurface: has no frame
+I/SV[263524306 MainActivity](26722): windowStopped(false) true io.flutter.embedding.android.FlutterSurfaceView{fb50fd2 V.E...... ......ID 0,0-720,1600} of VRI[MainActivity]@375e085
+D/SurfaceView(26722): 263524306 updateSurface: has no frame
+D/VRI[MainActivity]@375e085(26722): reportNextDraw android.view.ViewRootImpl.performTraversals:5443 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 
+I/SurfaceView(26722): 263524306 Changes: creating=true format=true size=true visible=true alpha=false hint=false left=true top=true z=false attached=true lifecycleStrategy=false
+D/BufferQueueConsumer(26722): [](id:686200000001,api:0,p:-1,c:26722) connect: controlledByApp=false
+D/BLASTBufferQueue(26722): [fb50fd2 SurfaceView[com.example.crashguard/com.example.crashguard.MainActivity]@0#1](f:0,a:0) constructor()
+I/BLASTBufferQueue_Java(26722): new BLASTBufferQueue, mName= fb50fd2 SurfaceView[com.example.crashguard/com.example.crashguard.MainActivity]@0 mNativeObject= 0xb4000074ab910000 caller= android.view.SurfaceView.createBlastSurfaceControls:1781 android.view.SurfaceView.updateSurface:1450 android.view.SurfaceView.lambda$new$0:280 android.view.SurfaceView.$r8$lambda$NfZyM_TG8F8lqzaOVZ7noREFjzU:0 android.view.SurfaceView$$ExternalSyntheticLambda1.onPreDraw:0 android.view.ViewTreeObserver.dispatchOnPreDraw:1229 android.view.ViewRootImpl.performTraversals:5448 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+I/BLASTBufferQueue_Java(26722): update, w= 720 h= 1600 mName = fb50fd2 SurfaceView[com.example.crashguard/com.example.crashguard.MainActivity]@0 mNativeObject= 0xb4000074ab910000 sc.mNativeObject= 0xb400007543d9e100 format= 4 caller= android.view.SurfaceView.createBlastSurfaceControls:1782 android.view.SurfaceView.updateSurface:1450 android.view.SurfaceView.lambda$new$0:280 android.view.SurfaceView.$r8$lambda$NfZyM_TG8F8lqzaOVZ7noREFjzU:0 android.view.SurfaceView$$ExternalSyntheticLambda1.onPreDraw:0 android.view.ViewTreeObserver.dispatchOnPreDraw:1229 
+D/BLASTBufferQueue(26722): [fb50fd2 SurfaceView[com.example.crashguard/com.example.crashguard.MainActivity]@0#1](f:0,a:0) update width=720 height=1600 format=4 mTransformHint=0
+I/SurfaceView(26722): 263524306 Cur surface: Surface(name=null mNativeObject=0)/@0x9b92448
+I/SV[263524306 MainActivity](26722): pST: sr = Rect(0, 0 - 720, 1600) sw = 720 sh = 1600
+D/SurfaceView(26722): 263524306 performSurfaceTransaction RenderWorker position = [0, 0, 720, 1600] surfaceSize = 720x1600
+I/SV[263524306 MainActivity](26722): updateSurface: mVisible = true mSurface.isValid() = true
+I/SV[263524306 MainActivity](26722): updateSurface: mSurfaceCreated = false surfaceChanged = true visibleChanged = true
+I/SurfaceView(26722): 263524306 visibleChanged -- surfaceCreated
+I/SV[263524306 MainActivity](26722): surfaceCreated 1 #8 io.flutter.embedding.android.FlutterSurfaceView{fb50fd2 V.E...... ......ID 0,0-720,1600}
+D/mple.crashguard(26722): Can't load libmbrainSDK
+D/mple.crashguard(26722): initMbrain failed
+I/SurfaceView(26722): 263524306 surfaceChanged -- format=4 w=720 h=1600
+I/SV[263524306 MainActivity](26722): surfaceChanged (720,1600) 1 #8 io.flutter.embedding.android.FlutterSurfaceView{fb50fd2 V.E...... ......ID 0,0-720,1600}
+I/SurfaceView(26722): 263524306 surfaceRedrawNeeded
+V/SurfaceView(26722): Layout: x=0 y=0 w=720 h=1600, frame=Rect(0, 0 - 720, 1600)
+D/VRI[MainActivity]@375e085(26722): Canceling draw. cancelDueToPreDrawListener=true cancelDueToSync=false
+D/HWUI    (26722): CacheManager::trimMemory(20)
+I/GrallocExtra(26722): gralloc_extra_query:is_SW3D 0
+I/GrallocExtra(26722): gralloc_extra_query:is_SW3D 0
+D/BLASTBufferQueue(26722): [fb50fd2 SurfaceView[com.example.crashguard/com.example.crashguard.MainActivity]@0#1](f:0,a:1) acquireNextBufferLocked size=720x1600 mFrameNumber=1 applyTransaction=true mTimestamp=3958746093697(auto) mPendingTransactions.size=0 graphicBufferId=114770116083722 transform=0
+D/mple.crashguard(26722): Can't load libmbrainSDK
+D/mple.crashguard(26722): initMbrain failed
+D/FlutterGeolocator(26722): Creating service.
+D/FlutterGeolocator(26722): Binding to location service.
+I/SurfaceView(26722): 263524306 finishedDrawing
+D/HWUI    (26722): HWUI - treat SMPTE_170M as sRGB
+I/Choreographer(26722): Skipped 133 frames!  The application may be doing too much work on its main thread.
+D/VRI[MainActivity]@375e085(26722): Setup new sync=wmsSync-VRI[MainActivity]@375e085#1
+I/VRI[MainActivity]@375e085(26722): Creating new active sync group VRI[MainActivity]@375e085#2
+D/VRI[MainActivity]@375e085(26722): Draw frame after cancel
+D/VRI[MainActivity]@375e085(26722): registerCallbacksForSync syncBuffer=false
+D/SurfaceView(26722): 263524306 updateSurfacePosition RenderWorker, frameNr = 1, position = [0, 0, 720, 1600] surfaceSize = 720x1600
+I/SV[263524306 MainActivity](26722): uSP: rtp = Rect(0, 0 - 720, 1600) rtsw = 720 rtsh = 1600
+I/SV[263524306 MainActivity](26722): onSSPAndSRT: pl = 0 pt = 0 sx = 1.0 sy = 1.0
+I/SV[263524306 MainActivity](26722): aOrMT: VRI[MainActivity]@375e085 t = android.view.SurfaceControl$Transaction@f67063 fN = 1 android.view.SurfaceView.-$$Nest$mapplyOrMergeTransaction:0 android.view.SurfaceView$SurfaceViewPositionUpdateListener.positionChanged:1932 android.graphics.RenderNode$CompositePositionUpdateListener.positionChanged:401 
+I/VRI[MainActivity]@375e085(26722): mWNT: t=0xb400007543d11a00 mBlastBufferQueue=0xb4000074ab646800 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SurfaceView.applyOrMergeTransaction:1863 android.view.SurfaceView.-$$Nest$mapplyOrMergeTransaction:0 android.view.SurfaceView$SurfaceViewPositionUpdateListener.positionChanged:1932 
+D/VRI[MainActivity]@375e085(26722): Received frameDrawingCallback syncResult=0 frameNum=1.
+I/VRI[MainActivity]@375e085(26722): mWNT: t=0xb4000075438ac000 mBlastBufferQueue=0xb4000074ab646800 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:15441 android.view.ThreadedRenderer$1.onFrameDraw:718 <bottom of call stack> 
+I/VRI[MainActivity]@375e085(26722): Setting up sync and frameCommitCallback
+D/BLASTBufferQueue(26722): [VRI[MainActivity]@375e085#0](f:0,a:1) acquireNextBufferLocked size=720x1600 mFrameNumber=1 applyTransaction=true mTimestamp=3958864524389(auto) mPendingTransactions.size=0 graphicBufferId=114770116083727 transform=0
+I/VRI[MainActivity]@375e085(26722): Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+D/HWUI    (26722): CFMS:: SetUp Pid : 26722    Tid : 26738
+D/VRI[MainActivity]@375e085(26722): reportDrawFinished seqId=0
+I/HWUI    (26722): Davey! duration=2266ms; Flags=1, FrameTimelineVsyncId=308976, IntendedVsync=3956599457927, Vsync=3958816124638, InputEventId=0, HandleInputStart=3958823632774, AnimationStart=3958823641620, PerformTraversalsStart=3958823644158, DrawStart=3958835351235, FrameDeadline=3956615457927, FrameStartTime=3958822085620, FrameInterval=16666667, WorkloadTarget=16000000, SyncQueued=3958839896389, SyncStart=3958840325004, IssueDrawCommandsStart=3958845339850, SwapBuffers=3958855686620, FrameCompleted=3958866439235, DequeueBufferDuration=3219462, QueueBufferDuration=1363384, GpuCompleted=3958863857927, SwapBuffersCompleted=3958866439235, DisplayPresentTime=0, CommandSubmissionCompleted=3958855686620, 
+W/mple.crashguard(26722): userfaultfd: MOVE ioctl seems unsupported: Try again
+I/mple.crashguard(26722): NativeAlloc concurrent mark compact GC freed 2306KB AllocSpace bytes, 8(260KB) LOS objects, 71% free, 2476KB/8620KB, paused 994us,13.092ms total 118.980ms
+I/VRI[MainActivity]@375e085(26722): stopped(true) old = false
+D/VRI[MainActivity]@375e085(26722): WindowStopped on com.example.crashguard/com.example.crashguard.MainActivity set to true
+D/HWUI    (26722): CacheManager::trimMemory(20)
+D/SurfaceView(26722): 81113023 windowPositionLost, frameNr = 0
+I/SV[263524306 MainActivity](26722): aOrMT: VRI[MainActivity]@375e085 t = android.view.SurfaceControl$Transaction@742368c fN = 0 android.view.SurfaceView.-$$Nest$mapplyOrMergeTransaction:0 android.view.SurfaceView$SurfaceViewPositionUpdateListener.positionLost:2025 android.graphics.RenderNode$CompositePositionUpdateListener.positionLost:418 
+I/VRI[MainActivity]@375e085(26722): mWNT: t=0xb4000075c97f4b00 mBlastBufferQueue=0xb4000074ab646800 fn= 0 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SurfaceView.applyOrMergeTransaction:1863 android.view.SurfaceView.-$$Nest$mapplyOrMergeTransaction:0 android.view.SurfaceView$SurfaceViewPositionUpdateListener.positionLost:2025 
+I/SV[263524306 MainActivity](26722): windowStopped(true) false io.flutter.embedding.android.FlutterSurfaceView{fb50fd2 V.E...... ........ 0,0-720,1600} of VRI[MainActivity]@375e085
+I/SurfaceView(26722): 263524306 Changes: creating=false format=false size=false visible=true alpha=false hint=false left=false top=false z=false attached=true lifecycleStrategy=false
+I/SurfaceView(26722): 263524306 Cur surface: Surface(name=null mNativeObject=-5476376645791922176)/@0x9b92448
+I/SurfaceView(26722): 263524306 surfaceDestroyed
+I/SV[263524306 MainActivity](26722): surfaceDestroyed callback.size 1 #1 io.flutter.embedding.android.FlutterSurfaceView{fb50fd2 V.E...... ........ 0,0-720,1600}
+I/SV[263524306 MainActivity](26722): updateSurface: mVisible = false mSurface.isValid() = true
+D/BLASTBufferQueue(26722): [fb50fd2 SurfaceView[com.example.crashguard/com.example.crashguard.MainActivity]@0#1](f:0,a:1) destructor()
+D/BufferQueueConsumer(26722): [fb50fd2 SurfaceView[com.example.crashguard/com.example.crashguard.MainActivity]@0#1(BLAST Consumer)1](id:686200000001,api:0,p:-1,c:26722) disconnect
+I/SV[263524306 MainActivity](26722): releaseSurfaces: viewRoot = VRI[MainActivity]@375e085
+V/SurfaceView(26722): Layout: x=0 y=0 w=720 h=1600, frame=Rect(0, 0 - 720, 1600)
+D/SV[263524306 MainActivity](26722): updateSurface: surface is not valid
+I/SV[263524306 MainActivity](26722): releaseSurfaces: viewRoot = VRI[MainActivity]@375e085
+I/SV[263524306 MainActivity](26722): onWindowVisibilityChanged(4) false io.flutter.embedding.android.FlutterSurfaceView{fb50fd2 G.E...... ......I. 0,0-720,1600} of VRI[MainActivity]@375e085
+D/SV[263524306 MainActivity](26722): updateSurface: surface is not valid
+I/SV[263524306 MainActivity](26722): releaseSurfaces: viewRoot = VRI[MainActivity]@375e085
+D/BLASTBufferQueue(26722): [VRI[MainActivity]@375e085#0](f:0,a:1) destructor()
+D/BufferQueueConsumer(26722): [VRI[MainActivity]@375e085#0(BLAST Consumer)0](id:686200000000,api:0,p:-1,c:26722) disconnect
+D/HWUI    (26722): CacheManager::trimMemory(20)
+I/VRI[MainActivity]@375e085(26722): Relayout returned: old=(0,0,720,1600) new=(0,0,720,1600) relayoutAsync=false req=(720,1600)4 dur=13 res=0x2 s={false 0x0} ch=false seqId=0
+D/SV[263524306 MainActivity](26722): updateSurface: surface is not valid
+I/SV[263524306 MainActivity](26722): releaseSurfaces: viewRoot = VRI[MainActivity]@375e085
+D/VRI[MainActivity]@375e085(26722): applyTransactionOnDraw applyImmediately
+D/VRI[MainActivity]@375e085(26722): Not drawing due to not visible. Reason=View.INVISIBLE
+D/VRI[MainActivity]@375e085(26722): Pending transaction will not be applied in sync with a draw due to view not visible
+I/VRI[MainActivity]@375e085(26722): mWNT: t=0xb4000075438ac900 mBlastBufferQueue=0xnull fn= 0 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl.handleSyncRequestWhenNoAsyncDraw:6733 android.view.ViewRootImpl.performTraversals:5504 android.view.ViewRootImpl.doTraversal:3924 
+D/FlutterGeolocator(26722): Geolocator foreground service connected
+D/FlutterGeolocator(26722): Initializing Geolocator services
+D/FlutterGeolocator(26722): Flutter engine connected. Connected engine count 1
+D/WindowLayoutComponentImpl(26722): Register WindowLayoutInfoListener on Context=com.example.crashguard.MainActivity@62f4806, of which baseContext=android.app.ContextImpl@506cb24
+I/VRI[MainActivity]@375e085(26722): handleAppVisibility mAppVisible = true visible = false
+D/FlutterJNI(26722): Sending viewport metrics to the engine.
+D/ProfileInstaller(26722): Installing profile for com.example.crashguard
